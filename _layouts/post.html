@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+ <div class="usa-overlay"></div>
+
+<main class="usa-grid" id="main-content">
+
+    <div class="post-body">
+        <h1>{{ page.title | escape }}</h1>
+        <div class="dt-published">{{ page.date | date: "%B %e, %Y" }}</div>
+        {{ content }}
+    </div>
+
+    <p class="news-signup-footer">
+        To receive updates on activities related to the Federal Data Strategy, please <a href="https://public.govdelivery.com/accounts/USGSA/subscribers/new?topic_id=USGSA_756">sign up for the newsletter</a>.
+    </p>
+
+{% if page.category == "proof-points" %}
+
+<div class="proof-points-footer">
+    <div class="usa-width-one-third">
+      <img src="{{ site.baseurl }}/assets/img/federal-data-strategy-incubator-project-logo.png" alt="Federal Data Strategy Incubator Project Logo">
+    </div>
+    <div class="usa-width-two-thirds">
+    <h3>The Federal Data Strategy Incubator Project</h3>
+    <p>
+    The Incubator Project helps federal data practitioners think through how to improve government services, enabling the public to get the most out of federal data. This Proof Point and others will highlight the many successes and challenges data innovators face every day, revealing valuable lessons learned to share with data practitioners throughout government.
+    </p>
+    </div>
+</div>
+
+
+{% endif %}
+
+</main>
+
+

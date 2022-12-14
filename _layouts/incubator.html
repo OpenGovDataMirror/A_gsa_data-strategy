@@ -1,0 +1,103 @@
+{% include head.html %}
+
+{% include header.html %}
+
+
+<main id="main-content">
+
+  <section class="usa-section">
+    <div class="usa-grid">
+      <h2>The Data Incubator Project</h2>
+      <p>
+        To solve the most pressing issues facing the nation, we must leverage data as a strategic asset. The Federal Data Strategy will highlight examples of the use of data to solve problems and serve the public, with a particular focus on examples that can be replicated or scaled or that solve high-priority problems. A select number of Use Cases deemed “ripe for testing” will be included in The Data Incubator Project.
+      </p>
+
+      <h2>What is a Use Case?</h2>
+      <p>
+        For the purposes of the Federal Data Strategy, a “Use Case” is a data practice or method that leverages data to support an articulable federal agency mission or public interest outcome. The Federal Data Strategy is seeking examples that solve problems or demonstrate solutions that can help inform the four strategy areas: Enterprise Data Governance; Use, Access, and Augmentation; Decision-making and Accountability; and Commercialization, Innovation, and Public Use.
+      </p>
+    </div>
+  </section>
+
+
+  <section class="usa-section usa-section-dark usa-graphic_list">
+
+  <div class="usa-grid usa-graphic_list-row">
+
+    <h2 class="areas-heading">Example Use Case Submissions</h2>
+
+    <div class="usa-width-one-half usa-media_block">
+      <img class="usa-media_block-img svg-icon"  src="{{ site.baseurl }}/assets/img/icons/economic-development.svg" alt="Alt text">
+      <div class="usa-media_block-body">
+        <h3>Economic Development</h3>
+        <p>
+          State and local authorities increasingly need detailed local information about their economies to make informed decisions. The US Census Bureau’s <a href="https://lehd.ces.census.gov/">Longitudinal Employer-Household Dynamics (LEHD) program</a> produces new, cost effective, public-use information combining federal, state and Census Bureau data on employers and employees under the <a href="Local Employment Dynamics (LED) Partnership">Local Employment Dynamics (LED) Partnership.</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="usa-width-one-half usa-media_block">
+      <img class="usa-media_block-img svg-icon"  src="{{ site.baseurl }}/assets/img/icons/public-safety.svg" alt="Alt text">
+      <div class="usa-media_block-body">
+        <h3>Public Safety</h3>
+        <p>
+          Emergency responders rely on up-to-date addresses for timely response. The Federal Geospatial Data Committee recognizes the need for a free, open, and up-to-date <a href="https://www.transportation.gov/nad">National Address Database</a> (NAD) to serve these critical needs as well as a broad range of government services such as mail delivery, permitting, and school siting. Based on a minimum content approach, the Department of Transportation and the US Census Bureau’s NAD pilot collected and standardized addresses from 22 state partners.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="usa-grid usa-graphic_list-row">
+
+    <div class="usa-width-one-half usa-media_block">
+      <img class="usa-media_block-img svg-icon"  src="{{ site.baseurl }}/assets/img/icons/national-security.svg" alt="Alt text">
+      <div class="usa-media_block-body">
+        <h3>National Security</h3>
+        <p>
+          Preventing and minimizing adverse effects of cyber attacks is imperative to national security in the 21st century. National Institute of Standards and Technology’s <a href="https://nvd.nist.gov/">National Vulnerability Database</a> and the Homeland Security Systems Engineering and Development Institute’s <a href="https://cve.mitre.org/">Common Vulnerabilities and Exposure</a> list enable automation of vulnerability management, security measurement, and compliance.
+        </p>
+      </div>
+    </div>
+
+    <div class="usa-width-one-half usa-media_block">
+      <img class="usa-media_block-img svg-icon"  src="{{ site.baseurl }}/assets/img/icons/health.svg" alt="Alt text">
+      <div class="usa-media_block-body">
+        <h3>Health</h3>
+        <p>
+          Local communities and health professionals reacting to the opioid crisis require timely data to assess impact and deliver effective interventions. The Department of Health and Human Services’ 5 Point Strategy to Combat the Opioids Crisis includes Point 2, <a href="https://www.hhs.gov/opioids/about-the-epidemic/hhs-response/better-data/index.html">Better Data</a> — supporting more timely, specific public health data and reporting, and accelerating the Center for Disease Control’s reporting of drug overdose data.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="usa-grid usa-graphic_list-row">
+
+    <div class="usa-width-one-half usa-media_block">
+      <img class="usa-media_block-img svg-icon"  src="{{ site.baseurl }}/assets/img/icons/education.svg" alt="Alt text">
+      <div class="usa-media_block-body">
+        <h3>Education</h3>
+        <p>
+          Students seek colleges that give them the best return on their investment. The <a href="https://collegescorecard.ed.gov/">College Scorecard</a> provides up-to-date, comprehensive, and reliable information about college costs, student loan amounts, student ability to repay loans, and their expected earnings.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+  <section class="usa-section">
+    <div class="usa-grid">
+
+      {{ content }}
+
+    </div>
+  </section>
+
+</main>
+
+{% include footer.html %}
